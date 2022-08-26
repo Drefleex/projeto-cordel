@@ -13,6 +13,7 @@
 *{
     margin:0;
     padding:0;
+    font-size: 1em;
 }
 
 html, body{
@@ -30,7 +31,7 @@ header h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font1);
-    font-size: 10vw;
+    font-size: 2.5em;
 }
 
 header p{
@@ -53,7 +54,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 3.5vw;
+    font-size: 1.3em;
 }
 
 section > p{
@@ -97,5 +98,43 @@ footer{
     text-align: center;
     color:#fff;
     padding: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  
+   
+    header > h1{
+        font-size: 3em;
+        padding-top: 25px;
+    }
+
+    header > p {
+        padding-bottom: 30px;
+    }
+
+    section{
+        width: 910px;
+        margin: auto;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    section  p {
+        text-align: center;
+        
+    }
+
+    section.imagem > p {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:600){
+    section  p {
+        text-align: left;
+        
+    }
 }
 
