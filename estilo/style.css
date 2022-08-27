@@ -106,13 +106,15 @@ footer{
 @media screen and (min-width: 768px ) {
 
     header{
-        width: 100%;
+        width:100% ;
         margin: auto;
     }
    
     header > h1{
-        font-size: 3em;
+        font-size: 4.2em;
         padding-top: 25px;
+
+  
     }
 
     header > p {
@@ -120,19 +122,16 @@ footer{
     }
 
     section{
-        width: 100vw;
+        width: 80%;
         margin: auto;
         text-align: center;
         font-size: 1.5em;
     }
 
-    section  p {
-        text-align: center;
-        
-    }
 
     section.imagem > p {
-        padding: 50px;
+        padding: 20px;
+       
     }
 }
 
@@ -141,5 +140,6 @@ footer{
         width: 100%;
         margin: auto;
     }
+    
 }
 
