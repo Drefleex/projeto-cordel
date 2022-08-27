@@ -10,6 +10,7 @@
    --font2: 'Sriracha', cursive;
 }
 
+
 *{
     margin:0;
     padding:0;
@@ -20,6 +21,7 @@ html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font0);
+    
 }
 
 header{
@@ -103,7 +105,10 @@ footer{
 
 @media screen and (min-width: 768px ) {
 
-  
+    header{
+        width: 82vw;
+        margin: auto;
+    }
    
     header > h1{
         font-size: 3em;
